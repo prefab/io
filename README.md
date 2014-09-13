@@ -1,0 +1,1 @@
+This repository includes the code I've used to redirect mouse clicks and key presses to applications. It also includes the low-level methods for capturing pixels from a window.
