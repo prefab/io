@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using Microsoft.Win32;
 using System.Windows.Forms;
-namespace PrefabUtils
+namespace PrefabWinAPI
 {
     /// <summary>
     /// 

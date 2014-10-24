@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PrefabUtils
+namespace PrefabWinAPI
 {
     public class Win32
     {
@@ -1034,7 +1034,7 @@ namespace PrefabUtils
             {
                 uint pid = 0;
                 StringBuilder sb = new StringBuilder(2000);
-                Win32.GetWindowThreadProcessId(hwnd, ref pid);
+                GetWindowThreadProcessId(hwnd, ref pid);
                 Process p = Process.GetProcessById((int)pid);
                 string filename = p.MainModule.FileName;
                 p.Dispose();

@@ -8,7 +8,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Drawing.Imaging;
 
-namespace ScreenVideoCapture
+namespace PrefabVideoCapture
 {
 
     /// <summary>

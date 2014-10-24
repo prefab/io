@@ -16,9 +16,9 @@ using System.Threading;
 using System.Windows.Interop;
 using Microsoft.Win32;
 using Prefab;
-using PrefabUtils;
+using PrefabWinAPI;
 
-namespace ScreenVideoCapture
+namespace PrefabVideoCapture
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

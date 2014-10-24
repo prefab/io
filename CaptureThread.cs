@@ -7,8 +7,9 @@ using System.Threading;
 using AviFile;
 using Prefab;
 using System.Drawing.Imaging;
-using PrefabUtils;
-namespace ScreenVideoCapture
+using PrefabWinAPI;
+
+namespace PrefabVideoCapture
 {
     class CaptureThread
     {
